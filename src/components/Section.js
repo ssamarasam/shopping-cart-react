@@ -2,7 +2,7 @@ import React from "react";
 import Courses from "../mocks/Courses";
 import CourseCard from "./CourseCard";
 
-function Section() {
+function Section(props) {
   return (
     <div>
       <section className="py-5">
@@ -10,7 +10,13 @@ function Section() {
           <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             {/* <CourseCard /> */}
             {Courses.map((course) => {
-              return <CourseCard data={course} />;
+              return (
+                <CourseCard
+                  data={course}
+                  handleAddtoCart={props.handleAddtoCart}
+                  handleRemoveItem={props.handleRemoveItem}
+                />
+              );
             })}
           </div>
         </div>

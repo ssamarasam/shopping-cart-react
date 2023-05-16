@@ -1,6 +1,9 @@
 import React from "react";
+import { useState } from "react";
 
 function CourseCard(props) {
+  //   let itemAdded = false;
+  const [itemAdded, setItemAdded] = useState(false);
   return (
     <div>
       <div className="col mb-5">
@@ -24,9 +27,31 @@ function CourseCard(props) {
 
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div class="text-center">
-              <a class="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+              {!itemAdded && (
+                <button
+                  class="btn btn-outline-dark mt-auto"
+                  href="#"
+                  onClick={() => {
+                    console.log("course: ", props.data);
+                    props.handleAddtoCart(props.data);
+                    setItemAdded(!itemAdded);
+                  }}
+                >
+                  Add to cart
+                </button>
+              )}
+              {itemAdded && (
+                <button
+                  class="btn btn-outline-dark mt-auto"
+                  href="#"
+                  onClick={() => {
+                    props.handleRemoveItem(props.data);
+                    setItemAdded(!itemAdded);
+                  }}
+                >
+                  Remove Item
+                </button>
+              )}
             </div>
           </div>
         </div>

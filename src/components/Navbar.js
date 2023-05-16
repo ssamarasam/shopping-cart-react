@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -73,7 +73,7 @@ function Navbar() {
                 <i className="bi-cart-fill me-1"></i>
                 Cart
                 <span className="badge bg-dark text-white ms-1 rounded-pill">
-                  0
+                  {props.listCount}
                 </span>
               </button>
             </form>
