@@ -1,3 +1,10 @@
+Netlify url: https://shoppingcartsam.netlify.app/
+
+
+Other references to deploy to Netlify:
+https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/
+https://answers.netlify.com/t/how-to-fix-build-failures-with-create-react-app-in-production/17752
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
