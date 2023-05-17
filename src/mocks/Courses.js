@@ -5,6 +5,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
     offerPrice: "250.00",
+    rating: 5,
   },
   {
     courseName: "ExpressJs",
@@ -12,6 +13,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
     offerPrice: "150.00",
+    rating: 5,
   },
   {
     courseName: "MongoDB",
@@ -19,6 +21,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb-svgrepo-com.svg/640px-Mongodb-svgrepo-com.svg.png",
     offerPrice: "50.00",
+    rating: 4,
   },
   {
     courseName: "SQl",
@@ -26,6 +29,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/640px-Sql_data_base_with_logo.png",
     offerPrice: "55.00",
+    rating: 3,
   },
   {
     courseName: "HTML5",
@@ -33,6 +37,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png",
     offerPrice: "55.00",
+    rating: 3,
   },
   {
     courseName: "JavaScript",
@@ -40,6 +45,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/640px-Javascript-736400_960_720.png",
     offerPrice: "55.00",
+    rating: 5,
   },
   {
     courseName: "React JS",
@@ -47,6 +53,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
     offerPrice: "55.00",
+    rating: 5,
   },
   {
     courseName: "CSS3",
@@ -54,6 +61,7 @@ const Courses = [
     courseImg:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/CSS_icon.svg/640px-CSS_icon.svg.png",
     offerPrice: "55.00",
+    rating: 5,
   },
 ];
 
